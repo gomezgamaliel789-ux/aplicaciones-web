@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div id="contenedor">
+    <header>
+      <img src="images (1).jpg" alt="Encabezado de la página">
+    </header>
+    <nav id="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#Servicios">Servicios</a></li>
+        <li><a href="#Productos">Productos</a></li>
+        <li><a href="#Registros">Registro</a></li>
+        <li><a href="#Acerca-de">Acerca de</a></li>
+      </ul>
+    </nav>
+
+  
+    <h2 id="Servicios">Servicios</h2>
+    <main id="principal">
+      <aside class="tarjeta">
+        <img src="images (10).jpg" alt="Desarrollo de software">
+        <h4>Desarrollo</h4>
+      </aside>
+      <aside class="tarjeta">
+        <div class="centrar">
+          <img src="images (5).jpg" alt="Asesorías profesionales">
+          <h4>Innovacion</h4>
+        </div>
+      </aside>
+      <aside class="tarjeta">
+        <img src="images (7).jpg" alt="Cursos y capacitación">
+        <h4>Cursos</h4>
+      </aside>
+    </main>
+
+    
+    <h2 id="Productos">Productos</h2>
+    <section class="productos">
+      <aside class="producto">
+        <div class="centrar"><img src="images (4).jpg" alt="Producto 1"></div>
+        <h3>Producto 1</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+      <aside class="producto">
+        <div class="centrar"><img src="images (2).jpg" alt="Producto 2"></div>
+        <h3>Producto 2</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+      <aside class="producto">
+        <div class="centrar"><img src="images (3).jpg" alt="Producto 3"></div>
+        <h3>Producto 3</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+      <aside class="producto">
+        <div class="centrar"><img src="images (4).jpg" alt="Producto 4"></div>
+        <h3>Producto 4</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+      <aside class="producto">
+        <div class="centrar"><img src="images (6).jpg" alt="Producto 5"></div>
+        <h3>Producto 5</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+
+      <aside class="producto">
+        <div class="centrar"><img src="images (11).jpg" alt="Producto 6"></div>
+        <h3>Producto 6</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+      <aside class="producto">
+        <div class="centrar"><img src="images (8).jpg" alt="Producto 7"></div>
+        <h3>Producto 7</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+      <aside class="producto">
+        <div class="centrar"><img src="images (9).jpg" alt="Producto 8"></div>
+        <h3>Producto 8</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+      <aside class="producto">
+        <div class="centrar"><img src="images (12).jpg" alt="Producto 9"></div>
+        <h3>Producto 9</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+      <aside class="producto">
+        <div class="centrar"><img src="images (13).jpg" alt="Producto 10"></div>
+        <h3>Producto 10</h3>
+        <div class="botones">
+          <button class="boton">Comprar</button>
+          <button class="boton boton-2">Ver</button>
+        </div>
+      </aside>
+    </section>
+
+    <h2 id="Registros">Registro de Mensaje</h2>
+    <section class="formulario">
+      <div class="registro">
+        <form action="" method="post">
+          <p>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingresa tu nombre completo"
+              required
+              autofocus
+              class="caja"
+            >
+          </p>
+          <p>
+            <input
+              type="text"
+              id="correo"
+              name="correo"
+              placeholder="Ingresa tu correo electrónico"
+              class="caja"
+            >
+          </p>
+          <p>
+            <textarea
+              id="msg"
+              name="msg"
+              placeholder="Escribe aquí tu mensaje"
+              required
+            ></textarea>
+          </p>
+          <p>
+            <input
+              type="submit"
+              name="enviar"
+              value="Enviar Mensaje"
+              class="remitir"
+            >
+          </p>
+        </form>
+      </div>
+    </section>
+
+    
+    <h2 id="Acerca-de">Acerca de la Empresa</h2>
+    <section class="empresa">
+      <h4>Misión</h4>
+      <article>
+        Brindar soluciones tecnológicas de calidad que impulsen el crecimiento de nuestros clientes, con innovación, compromiso y responsabilidad social.
+      </article>
+      <h4>Visión</h4>
+      <article>
+        Ser una empresa líder en el desarrollo de tecnologías de la información, reconocida por la excelencia de nuestros servicios y la formación de profesionales comprometidos.
+      </article>
+    </section>
+    <footer>
+      <h6>Gomez Mixcoatl Ever Gamaliel © 2026</h6>
+    </footer>
+  </div>
+</body>
+</html>
